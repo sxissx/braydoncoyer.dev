@@ -2,7 +2,7 @@ import { Session, createClient } from '@supabase/supabase-js';
 
 import { useState } from 'react';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://ranhjqcrnjibuvwbwpky.supabase.co';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_CLIENT_KEY;
 
 const supabaseClient = createClient(supabaseUrl, supabaseKey);
