@@ -27,14 +27,7 @@ export const getToolboxData = async (databaseId) => {
       url: item.properties.URL?.url
     });
   });
-if (item.properties.Name.title && item.properties.Name.title.length > 0) {
-  // 访问标题属性并提取纯文本内容
-  // ...
-} else {
-  // 处理标题属性未定义的情况
-  // ...
-}
-```
+
   return results;
 };
 
